@@ -1,0 +1,9 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.name.asaafp.mixin",
+  "refmap": "refmap.asaafp.json",
+  "mixins": [
+    "MixinBlockMachine"
+  ],
+  "required": false
+}
