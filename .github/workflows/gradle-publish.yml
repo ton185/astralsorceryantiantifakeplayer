@@ -38,8 +38,7 @@ jobs:
 
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
-    - name: Publish to GitHub Packages
-      run: chmod +x gradlew && ./gradlew publish
-      env:
-        USERNAME: ${{ github.actor }}
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Upload to latest release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: ./build/libs/*
