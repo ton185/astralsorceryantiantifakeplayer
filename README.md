@@ -1,5 +1,5 @@
 # Astral Sorcery Anti Anti Fake Player
-
+https://modrinth.com/mod/astral-sorcery-anti-anti-fake-player
 ## What?
 This mod makes it so fake players (such as the user from cyclic or player simulator from integrated dynamics) can use Astral Sorcery machines (such as the grindstone)
 
